@@ -1,0 +1,381 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj": {}
+  },
+  "projects": {
+    "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj",
+        "projectName": "AuthApp.Application",
+        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj",
+        "packagesPath": "/home/ellison/.nuget/packages/",
+        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellison/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              },
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
+              },
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
+              },
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ellison/.dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj",
+        "projectName": "AuthApp.Domain",
+        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj",
+        "packagesPath": "/home/ellison/.nuget/packages/",
+        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellison/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ellison/.dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj",
+        "projectName": "AuthApp.Infra.CrossCutting.Resources",
+        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj",
+        "packagesPath": "/home/ellison/.nuget/packages/",
+        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellison/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ellison/.dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj",
+        "projectName": "AuthApp.Infra.Data",
+        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj",
+        "packagesPath": "/home/ellison/.nuget/packages/",
+        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellison/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              },
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ellison/.dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
+        "projectName": "AuthApp.Services",
+        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
+        "packagesPath": "/home/ellison/.nuget/packages/",
+        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellison/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              },
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
+              },
+              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ellison/.dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

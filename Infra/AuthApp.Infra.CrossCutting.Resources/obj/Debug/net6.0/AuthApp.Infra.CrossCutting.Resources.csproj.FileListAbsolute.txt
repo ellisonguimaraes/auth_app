@@ -1,0 +1,15 @@
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/bin/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.deps.json
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/bin/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.dll
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/bin/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.pdb
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.ErrorCodeResource.resources
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.TemplatesResource.resources
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.csproj.GenerateResource.cache
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.GeneratedMSBuildEditorConfig.editorconfig
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.AssemblyInfoInputs.cache
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.AssemblyInfo.cs
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.csproj.CoreCompileInputs.cache
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.sourcelink.json
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.dll
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/refint/AuthApp.Infra.CrossCutting.Resources.dll
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/AuthApp.Infra.CrossCutting.Resources.pdb
+/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/Debug/net6.0/ref/AuthApp.Infra.CrossCutting.Resources.dll

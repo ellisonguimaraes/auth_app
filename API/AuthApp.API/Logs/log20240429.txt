@@ -1,0 +1,57 @@
+2024-04-29 00:51:29.859 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2024-04-29 00:51:29.967 +00:00 [WRN] No XML encryptor configured. Key {d8dc8f37-7cff-4f42-a048-2ac90b56a656} may be persisted to storage in unencrypted form.
+2024-04-29 00:53:04.886 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-04-29 00:53:36.253 +00:00 [ERR] [POST /api/v1/user/authenticate] AUTH0002: User is blocked, TraceId: 00-ef297ff92ea33cb747b31cab74ce7c1a-d463499367f7e03d-00
+AuthApp.Services.Exceptions.AuthException: AUTH0002: User is blocked
+   at AuthApp.Services.UserServices.AuthenticateAsync(String email, String password) in /home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/UserServices.cs:line 154
+   at AuthApp.Application.Services.UserAppServices.AuthenticateAsync(AuthRequest authRequest) in /home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/Services/UserAppServices.cs:line 122
+   at AuthApp.API.Controllers.UserController.AuthenticateAsync(AuthRequest authRequest) in /home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/Controllers/UserController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthApp.API.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in /home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/Middlewares/GlobalExceptionMiddleware.cs:line 36, TraceId: 00-ef297ff92ea33cb747b31cab74ce7c1a-d463499367f7e03d-00
+2024-04-29 00:55:01.303 +00:00 [ERR] [POST /api/v1/user/authenticate] AUTH0003: Confirm your account, TraceId: 00-d5b1280a3b9fff89a4aeae4e58073675-35cd81b48f5ad569-00
+AuthApp.Services.Exceptions.AuthException: AUTH0003: Confirm your account
+   at AuthApp.Services.UserServices.AuthenticateAsync(String email, String password) in /home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/UserServices.cs:line 163
+   at AuthApp.Application.Services.UserAppServices.AuthenticateAsync(AuthRequest authRequest) in /home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/Services/UserAppServices.cs:line 122
+   at AuthApp.API.Controllers.UserController.AuthenticateAsync(AuthRequest authRequest) in /home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/Controllers/UserController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthApp.API.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in /home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/Middlewares/GlobalExceptionMiddleware.cs:line 36, TraceId: 00-d5b1280a3b9fff89a4aeae4e58073675-35cd81b48f5ad569-00
+2024-04-29 00:55:35.140 +00:00 [ERR] [POST /api/v1/user/authenticate] AUTH0003: Confirm your account, TraceId: 00-06f662fad452ba5da15d13b4e47e4026-77a5cd14d6ecd2bb-00
+AuthApp.Services.Exceptions.AuthException: AUTH0003: Confirm your account
+   at AuthApp.Services.UserServices.AuthenticateAsync(String email, String password) in /home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/UserServices.cs:line 163
+   at AuthApp.Application.Services.UserAppServices.AuthenticateAsync(AuthRequest authRequest) in /home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/Services/UserAppServices.cs:line 122
+   at AuthApp.API.Controllers.UserController.AuthenticateAsync(AuthRequest authRequest) in /home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/Controllers/UserController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthApp.API.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in /home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/Middlewares/GlobalExceptionMiddleware.cs:line 36, TraceId: 00-06f662fad452ba5da15d13b4e47e4026-77a5cd14d6ecd2bb-00
