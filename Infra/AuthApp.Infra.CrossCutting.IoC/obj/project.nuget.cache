@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zK/jmyw0DA9rxdBbcNUnTs8h8m9aH/PSMulenk4KUSWpKOJgiHqH3NfjGrftobBrgBvDb6wBW9UST1tQ2LmvJQ==",
+  "dgSpecHash": "Bphvf7gmziyBNtK/SymcuFthqxEq6R6ZBSxi4dPOC8yn9IO0ztb9u01nAjb3+C7yt3eiLor2s4PG9jDsNE+p2g==",
   "success": true,
-  "projectFilePath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj",
+  "projectFilePath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "/home/ellison/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/ellison/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

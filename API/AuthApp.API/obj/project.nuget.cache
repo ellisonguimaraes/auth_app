@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "swQdcxmpEu26B3Z6IDTLroPDglK63Vp8K3uvOsFsJ0a8tg4g4MsUdvz+Fox434gsDaTTC3X/U9Zc1T+qyoG2PA==",
+  "dgSpecHash": "re6Q+ZdYP9NLhqi7rB2pbrKNuuK1K2CAvbd1HNd7/F30BiErBy94LLSGS9vM5wfjdd9rsn6gXWqkrHNcDPJc4Q==",
   "success": true,
-  "projectFilePath": "/home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/AuthApp.API.csproj",
+  "projectFilePath": "/home/ellison/source/repos/project_tcc_separated/auth_app/API/AuthApp.API/AuthApp.API.csproj",
   "expectedPackageFiles": [
     "/home/ellison/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/ellison/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

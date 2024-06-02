@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jcFdSiSNB7jufXMmqe1tIRS6IjaODnvJhRNkAfkKiQ7m5rNvpUzxUHX88A5AYMqL39m+jfXRk5at5nEMDWCxqA==",
+  "dgSpecHash": "E2TEpz2tbd1Zj8svKcL05VbanRT7P1cjPaZAn8LQY/wilnNEnwewkd1h2SNavAe+7GyhxViVei1CJGUpaUYz7Q==",
   "success": true,
-  "projectFilePath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
+  "projectFilePath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
   "expectedPackageFiles": [
     "/home/ellison/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/ellison/.nuget/packages/mailkit/3.2.0/mailkit.3.2.0.nupkg.sha512",

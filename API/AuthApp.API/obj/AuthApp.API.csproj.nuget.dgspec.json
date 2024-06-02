@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/AuthApp.API.csproj": {}
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/API/AuthApp.API/AuthApp.API.csproj": {}
   },
   "projects": {
-    "/home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/AuthApp.API.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/API/AuthApp.API/AuthApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/AuthApp.API.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/API/AuthApp.API/AuthApp.API.csproj",
         "projectName": "AuthApp.API",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/AuthApp.API.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/API/AuthApp.API/AuthApp.API.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/API/AuthApp.API/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/API/AuthApp.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
               }
             }
           }
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -119,14 +124,14 @@
         }
       }
     },
-    "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj",
         "projectName": "AuthApp.Application",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Application/AuthApp.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -141,17 +146,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj"
               }
             }
           }
@@ -160,6 +165,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -215,14 +225,14 @@
         }
       }
     },
-    "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj",
         "projectName": "AuthApp.Domain",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -243,6 +253,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -278,14 +293,14 @@
         }
       }
     },
-    "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj",
         "projectName": "AuthApp.Infra.CrossCutting.IoC",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.IoC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -300,17 +315,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Application/AuthApp.Application/AuthApp.Application.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj"
               }
             }
           }
@@ -319,6 +334,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -382,14 +402,14 @@
         }
       }
     },
-    "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj",
         "projectName": "AuthApp.Infra.CrossCutting.Resources",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -410,6 +430,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -435,14 +460,14 @@
         }
       }
     },
-    "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj",
         "projectName": "AuthApp.Infra.Data",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -457,11 +482,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
               }
             }
           }
@@ -470,6 +495,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -515,14 +545,14 @@
         }
       }
     },
-    "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
+    "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
+        "projectUniqueName": "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
         "projectName": "AuthApp.Services",
-        "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
+        "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/AuthApp.Services.csproj",
         "packagesPath": "/home/ellison/.nuget/packages/",
-        "outputPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Services/AuthApp.Services/obj/",
+        "outputPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Services/AuthApp.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ellison/.nuget/NuGet/NuGet.Config"
@@ -537,14 +567,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Domain/AuthApp.Domain/AuthApp.Domain.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj"
               },
-              "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
-                "projectPath": "/home/ellison/source/repos/egress-backend/src/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
+              "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj": {
+                "projectPath": "/home/ellison/source/repos/project_tcc_separated/auth_app/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj"
               }
             }
           }
@@ -553,6 +583,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
