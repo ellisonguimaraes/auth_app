@@ -6,15 +6,15 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["API/AuthApp.API/AuthApp.API.csproj", "API/AuthApp.API/"]
-COPY ["Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj", "Infra/AuthApp.Infra.CrossCutting.IoC/"]
-COPY ["Application/AuthApp.Application/AuthApp.Application.csproj", "Application/AuthApp.Application/"]
-COPY ["Domain/AuthApp.Domain/AuthApp.Domain.csproj", "Domain/AuthApp.Domain/"]
-COPY ["Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj", "Infra/AuthApp.Infra.CrossCutting.Resources/"]
-COPY ["Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj", "Infra/AuthApp.Infra.Data/"]
-COPY ["Services/AuthApp.Services/AuthApp.Services.csproj", "Services/AuthApp.Services/"]
-RUN dotnet restore "API/AuthApp.API/AuthApp.API.csproj"
-COPY . .
+COPY ["src/API/AuthApp.API/AuthApp.API.csproj", "API/AuthApp.API/"]
+COPY ["src/Infra/AuthApp.Infra.CrossCutting.IoC/AuthApp.Infra.CrossCutting.IoC.csproj", "Infra/AuthApp.Infra.CrossCutting.IoC/"]
+COPY ["src/Application/AuthApp.Application/AuthApp.Application.csproj", "Application/AuthApp.Application/"]
+COPY ["src/Domain/AuthApp.Domain/AuthApp.Domain.csproj", "Domain/AuthApp.Domain/"]
+COPY ["src/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj", "Infra/AuthApp.Infra.CrossCutting.Resources/"]
+COPY ["src/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj", "Infra/AuthApp.Infra.Data/"]
+COPY ["src/Services/AuthApp.Services/AuthApp.Services.csproj", "Services/AuthApp.Services/"]
+RUN dotnet restore "src/API/AuthApp.API/AuthApp.API.csproj"
+COPY src .
 WORKDIR "/src/API/AuthApp.API"
 RUN dotnet build "AuthApp.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
