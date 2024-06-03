@@ -1,6 +1,4 @@
-﻿version: '3.4'
-
-networks:
+﻿networks:
   backend:
     name: backend
     external: true
@@ -11,14 +9,11 @@ services:
     image: auth_api
     build:
       context: .
-      dockerfile: API/AuthApp.API/Dockerfile
+      dockerfile: API/AuthApp.API/Development.Dockerfile
     ports:
       - "5010:80"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
-    volumes:
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
     networks:
       - backend
