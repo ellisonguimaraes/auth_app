@@ -13,7 +13,7 @@ COPY ["src/Domain/AuthApp.Domain/AuthApp.Domain.csproj", "Domain/AuthApp.Domain/
 COPY ["src/Infra/AuthApp.Infra.CrossCutting.Resources/AuthApp.Infra.CrossCutting.Resources.csproj", "Infra/AuthApp.Infra.CrossCutting.Resources/"]
 COPY ["src/Infra/AuthApp.Infra.Data/AuthApp.Infra.Data.csproj", "Infra/AuthApp.Infra.Data/"]
 COPY ["src/Services/AuthApp.Services/AuthApp.Services.csproj", "Services/AuthApp.Services/"]
-RUN dotnet restore "src/API/AuthApp.API/AuthApp.API.csproj"
+RUN dotnet restore "API/AuthApp.API/AuthApp.API.csproj"
 COPY src .
 WORKDIR "/src/API/AuthApp.API"
 RUN dotnet build "AuthApp.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
