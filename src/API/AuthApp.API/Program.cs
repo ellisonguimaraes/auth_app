@@ -2,6 +2,7 @@ using AuthApp.API.Middlewares;
 using AuthApp.Infra.CrossCutting.IoC;
 using AuthApp.Infra.Data.Context;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 #region CONSTANTS
@@ -27,7 +28,10 @@ builder.Logging.AddSerilog(logger);
 // Database Context Configuration
 // Migration command: dotnet ef migrations add InitialMigrations -p .\Infra\AuthApp.Infra.Data\ -s .\API\AuthApp.API\
 // Update Db command: dotnet ef database update -p .\Infra\AuthApp.Infra.Data\ -s .\API\AuthApp.API\
-builder.Services.AddSqlServer<ApplicationDbContext>(builder.Configuration.GetConnectionString(AUTHDB_PROPERTY));
+builder.Services.AddDbContext<ApplicationDbContext>(opt =>
+{
+    opt.UseNpgsql(builder.Configuration.GetConnectionString(AUTHDB_PROPERTY));
+});
 
 // Identity Configuration
 builder.Services.AddIdentityConfiguration(builder.Configuration);

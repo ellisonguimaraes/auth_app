@@ -484,4 +484,4 @@ $RECYCLE.BIN/
 *.swp
 
 # Development file
-*.Development.json
+**/**/**/*.Development.json
