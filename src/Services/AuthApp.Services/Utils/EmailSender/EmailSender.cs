@@ -30,7 +30,10 @@ public class EmailSender : IEmailSender
     /// <param name="mailMessage">MimeMessage</param>
     public async Task SendAsync(MimeMessage mailMessage)
     {
-        using var client = new SmtpClient();
+        using var client = new SmtpClient
+        {
+            Timeout = 15000
+        };
 
         try
         {
