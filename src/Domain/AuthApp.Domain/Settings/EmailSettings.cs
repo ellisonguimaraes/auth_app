@@ -21,4 +21,10 @@ public class EmailSettings
 
     [JsonPropertyName("Port")]
     public int Port { get; set; }
+
+    [JsonPropertyName("UseSsl")]
+    public bool UseSsl { get; set; }
+
+    [JsonPropertyName("TimeoutSmtpOperationsInMilliseconds")]
+    public int TimeoutSmtpOperationsInMilliseconds { get; set; }
 }
