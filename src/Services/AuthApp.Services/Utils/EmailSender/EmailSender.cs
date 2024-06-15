@@ -30,19 +30,19 @@ public class EmailSender : IEmailSender
     /// <param name="mailMessage">MimeMessage</param>
     public async Task SendAsync(MimeMessage mailMessage)
     {
-        using var client = new SmtpClient
-        {
-            Timeout = 15000
-        };
+        using var client = new SmtpClient();
+        
+        client.Timeout = _emailSettings.TimeoutSmtpOperationsInMilliseconds;
 
         try
         {
-            await client.ConnectAsync(_emailSettings.Smtp, _emailSettings.Port, true);
-
-            client.AuthenticationMechanisms.Remove(AUTHENTICATION_MECHANISMS_REMOVE);
+            await client.ConnectAsync(_emailSettings.Smtp, _emailSettings.Port, _emailSettings.UseSsl);
+            
+            // Only google account
+            //client.AuthenticationMechanisms.Remove(AUTHENTICATION_MECHANISMS_REMOVE);
 
             await client.AuthenticateAsync(_emailSettings.UserName, _emailSettings.Password);
-
+            
             await client.SendAsync(mailMessage);
         }
         catch (Exception ex)
