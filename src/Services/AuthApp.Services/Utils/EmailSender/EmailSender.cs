@@ -48,7 +48,6 @@ public class EmailSender : IEmailSender
         catch (Exception ex)
         {
             _logger.LogError(ex, $"{ex}, {ErrorCodeResource.MAIL_ERROR_SENDING_EMAIL}, TraceId: {Activity.Current?.Id}");
-            throw;
         }
         finally
         {
