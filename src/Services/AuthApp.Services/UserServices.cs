@@ -55,11 +55,18 @@ public class UserServices : IUserServices
 
         await AddToRoleAsync(user);
 
-        var message = await BuildConfirmationEmailAsync(user);
 
         await _userManager.SetLockoutEnabledAsync(user, isLockout);
 
-        await _emailSender.SendAsync(message);
+        try
+        {
+            var message = await BuildConfirmationEmailAsync(user);
+            await _emailSender.SendAsync(message);
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 
     /// <summary>
